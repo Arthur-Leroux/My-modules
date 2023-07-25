@@ -1,0 +1,28 @@
+{
+  "name": "my-modules",
+  "version": "0.0.1",
+  "description": "test des modules perso et list des modules",
+  "main": "test.js",
+  "scripts": {
+    "start": "node-dev test.js",
+    "dev": "node-dev test;js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-Leroux/My-modules.git"
+  },
+  "keywords": [
+    "listening",
+    "my",
+    "modules"
+  ],
+  "author": "Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur-Leroux/My-modules/issues"
+  },
+  "homepage": "https://github.com/Arthur-Leroux/My-modules#readme",
+  "dependencies": {
+    "node-dev": "^8.0.0"
+  }
+}

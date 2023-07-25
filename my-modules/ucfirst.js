@@ -10,6 +10,6 @@ function ucfirst(str) {
 }
 const word = ucfirst();
 
-console.log(word);
+//console.log(word);
 
 module.exports = ucfirst;
