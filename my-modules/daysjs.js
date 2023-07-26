@@ -4,10 +4,12 @@ const dayjs = require(`dayjs`);
 const advancedFormat = require('dayjs/plugin/advancedFormat');
 //j'appelle la fonction avec l'extension plugin
 dayjs.extend(advancedFormat);
+require(`dayjs/locale/fr`);
+dayjs.locale(`fr`);
 
 
 function date(){
-    return dayjs().format(`dddd, MMMM Do YYYY`);
+    return dayjs().format(`dddd Do MMMM YYYY`);
 }
 date();
 

@@ -25,7 +25,7 @@ switch(url){
         res.write(`Voici la liste des url`) 
         res.write(`<ul>
         <li>/ucfirst : ${ucfirst(`mettre la premiere lettre en majuscule`)}</li>
-        <li>/date ${date()}</li>
+        <li>/date : ${date()}</li>
         </ul>`);
 
 case`/ucfirst`:
