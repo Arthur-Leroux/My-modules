@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "start": "node-dev test.js",
-    "dev": "node-dev test;js"
+    "dev": "node-dev test.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Arthur-Leroux/My-modules#readme",
   "dependencies": {
+    "dayjs": "^1.11.9",
     "node-dev": "^8.0.0"
   }
 }
